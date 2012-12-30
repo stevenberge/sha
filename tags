@@ -1,0 +1,219 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+B224	blake/Makefile	/^B224 = blake224$/;"	m
+B256	blake/Makefile	/^B256 = blake256$/;"	m
+B384	blake/Makefile	/^B384 = blake384$/;"	m
+B512	blake/Makefile	/^B512 = blake512$/;"	m
+BINS	blake/Makefile	/^BINS = $(B224) $(B256) $(B384) $(B512)$/;"	m
+BLOCK224	blake/blake224.c	219;"	d	file:
+BLOCK256	blake/blake256.c	219;"	d	file:
+BLOCK384	blake/blake384.c	214;"	d	file:
+BLOCK512	blake/blake512.c	218;"	d	file:
+CFLAGS	blake/Makefile	/^CFLAGS = -Wall -O3 -fomit-frame-pointer$/;"	m
+Ch	sha256.c	82;"	d	file:
+Ch	sha512.c	79;"	d	file:
+Ch	sha512module.c	79;"	d	file:
+Endianness	sha256.c	/^    int Endianness;$/;"	m	struct:__anon4	file:
+Endianness	sha512.c	/^    int Endianness;$/;"	m	struct:__anon5	file:
+Endianness	sha512module.c	/^    int Endianness;$/;"	m	struct:__anon6	file:
+F0	sha1.c	61;"	d	file:
+F1	sha1.c	62;"	d	file:
+F2	sha1.c	63;"	d	file:
+F3	sha1.c	64;"	d	file:
+FF0	sha1.c	129;"	d	file:
+FF0	sha1.c	89;"	d	file:
+FF1	sha1.c	130;"	d	file:
+FF1	sha1.c	90;"	d	file:
+FF2	sha1.c	131;"	d	file:
+FF2	sha1.c	91;"	d	file:
+FF3	sha1.c	132;"	d	file:
+FF3	sha1.c	92;"	d	file:
+G	blake/blake224.c	8;"	d	file:
+G	blake/blake256.c	8;"	d	file:
+G	blake/blake384.c	7;"	d	file:
+G	blake/blake512.c	7;"	d	file:
+Gamma0	sha256.c	88;"	d	file:
+Gamma0	sha512.c	85;"	d	file:
+Gamma0	sha512module.c	85;"	d	file:
+Gamma1	sha256.c	89;"	d	file:
+Gamma1	sha512.c	86;"	d	file:
+Gamma1	sha512module.c	86;"	d	file:
+LOAD32H	sha1.c	42;"	d	file:
+MIN	sha1.c	55;"	d	file:
+Maj	sha256.c	83;"	d	file:
+Maj	sha512.c	80;"	d	file:
+Maj	sha512module.c	80;"	d	file:
+NULL	sha1.c	7;"	d	file:
+PCT_BIG_ENDIAN	sha256.c	10;"	d	file:
+PCT_BIG_ENDIAN	sha512.c	8;"	d	file:
+PCT_BIG_ENDIAN	sha512module.c	8;"	d	file:
+PCT_LITTLE_ENDIAN	sha256.c	9;"	d	file:
+PCT_LITTLE_ENDIAN	sha512.c	7;"	d	file:
+PCT_LITTLE_ENDIAN	sha512module.c	7;"	d	file:
+PY_LONG_LONG	sha512.c	2;"	d	file:
+PY_LONG_LONG	sha512module.c	2;"	d	file:
+R	sha256.c	85;"	d	file:
+R	sha512.c	82;"	d	file:
+R	sha512module.c	82;"	d	file:
+RND	sha256.c	109;"	d	file:
+RND	sha256.c	180;"	d	file:
+RND	sha512.c	106;"	d	file:
+RND	sha512.c	193;"	d	file:
+RND	sha512module.c	106;"	d	file:
+RND	sha512module.c	193;"	d	file:
+ROL	sha1.c	33;"	d	file:
+ROLc	sha1.c	34;"	d	file:
+ROR	sha256.c	79;"	d	file:
+ROR64	sha512.c	76;"	d	file:
+ROR64	sha512module.c	76;"	d	file:
+ROT	blake/blake224.c	7;"	d	file:
+ROT	blake/blake256.c	7;"	d	file:
+ROT	blake/blake384.c	6;"	d	file:
+ROT	blake/blake512.c	6;"	d	file:
+S	sha256.c	84;"	d	file:
+S	sha512.c	81;"	d	file:
+S	sha512module.c	81;"	d	file:
+SHA1_BLOCKSIZE	sha1.c	15;"	d	file:
+SHA1_DIGESTSIZE	sha1.c	16;"	d	file:
+SHA1_INT32	sha1.c	/^typedef unsigned int SHA1_INT32;        \/** 32-bit integer *\/$/;"	t	file:
+SHA1_INT64	sha1.c	/^typedef long long SHA1_INT64;        \/** 64-bit integer *\/$/;"	t	file:
+SHA1object	sha1.c	/^} SHA1object;$/;"	t	typeref:struct:__anon3	file:
+SHA_BLOCKSIZE	sha1.c	10;"	d	file:
+SHA_BLOCKSIZE	sha256.c	20;"	d	file:
+SHA_BLOCKSIZE	sha512.c	19;"	d	file:
+SHA_BLOCKSIZE	sha512module.c	19;"	d	file:
+SHA_BYTE	sha1.c	/^typedef unsigned char SHA_BYTE;$/;"	t	file:
+SHA_BYTE	sha256.c	/^typedef unsigned char SHA_BYTE;$/;"	t	file:
+SHA_BYTE	sha512.c	/^typedef unsigned char SHA_BYTE;$/;"	t	file:
+SHA_BYTE	sha512module.c	/^typedef unsigned char SHA_BYTE;$/;"	t	file:
+SHA_DIGESTSIZE	sha1.c	11;"	d	file:
+SHA_DIGESTSIZE	sha256.c	21;"	d	file:
+SHA_DIGESTSIZE	sha512.c	20;"	d	file:
+SHA_DIGESTSIZE	sha512module.c	20;"	d	file:
+SHA_INT32	sha256.c	/^typedef unsigned int SHA_INT32; \/** 32-bit integer *\/$/;"	t	file:
+SHA_INT32	sha512.c	/^typedef unsigned int SHA_INT32; \/** 32-bit integer *\/$/;"	t	file:
+SHA_INT32	sha512module.c	/^typedef unsigned int SHA_INT32; \/** 32-bit integer *\/$/;"	t	file:
+SHA_INT64	sha512.c	/^typedef unsigned PY_LONG_LONG SHA_INT64;        \/** 64-bit integer *\/$/;"	t	file:
+SHA_INT64	sha512module.c	/^typedef unsigned PY_LONG_LONG SHA_INT64;        \/** 64-bit integer *\/$/;"	t	file:
+SHAcopy	sha256.c	/^static void SHAcopy(SHAobject *src, SHAobject *dest)$/;"	f	file:
+SHAcopy	sha512.c	/^static void SHAcopy(SHAobject *src, SHAobject *dest)$/;"	f	file:
+SHAcopy	sha512module.c	/^static void SHAcopy(SHAobject *src, SHAobject *dest)$/;"	f	file:
+SHAobject	sha256.c	/^} SHAobject;$/;"	t	typeref:struct:__anon4	file:
+SHAobject	sha512.c	/^} SHAobject;$/;"	t	typeref:struct:__anon5	file:
+SHAobject	sha512module.c	/^} SHAobject;$/;"	t	typeref:struct:__anon6	file:
+STORE32H	sha1.c	38;"	d	file:
+STORE64H	sha1.c	48;"	d	file:
+Sigma0	sha256.c	86;"	d	file:
+Sigma0	sha512.c	83;"	d	file:
+Sigma0	sha512module.c	83;"	d	file:
+Sigma1	sha256.c	87;"	d	file:
+Sigma1	sha512.c	84;"	d	file:
+Sigma1	sha512module.c	84;"	d	file:
+TestEndianness	sha256.c	6;"	d	file:
+TestEndianness	sha512.c	4;"	d	file:
+TestEndianness	sha512module.c	4;"	d	file:
+U32TO8_BIG	blake/blake.h	9;"	d
+U64TO8_BIG	blake/blake.h	16;"	d
+U8TO32_BIG	blake/blake.h	5;"	d
+U8TO64_BIG	blake/blake.h	13;"	d
+blake224_compress	blake/blake224.c	/^void blake224_compress( state224 *S, const uint8_t *block )$/;"	f
+blake224_final	blake/blake224.c	/^void blake224_final( state224 *S, uint8_t *out )$/;"	f
+blake224_hash	blake/blake224.c	/^void blake224_hash( uint8_t *out, const uint8_t *in, uint64_t inlen )$/;"	f
+blake224_init	blake/blake224.c	/^void blake224_init( state224 *S )$/;"	f
+blake224_test	blake/blake224.c	/^void blake224_test()$/;"	f
+blake224_update	blake/blake224.c	/^void blake224_update( state224 *S, const uint8_t *in, uint64_t inlen )$/;"	f
+blake256_compress	blake/blake256.c	/^void blake256_compress( state256 *S, const uint8_t *block )$/;"	f
+blake256_final	blake/blake256.c	/^void blake256_final( state256 *S, uint8_t *out )$/;"	f
+blake256_hash	blake/blake256.c	/^void blake256_hash( uint8_t *out, const uint8_t *in, uint64_t inlen )$/;"	f
+blake256_init	blake/blake256.c	/^void blake256_init( state256 *S )$/;"	f
+blake256_test	blake/blake256.c	/^void blake256_test()$/;"	f
+blake256_update	blake/blake256.c	/^void blake256_update( state256 *S, const uint8_t *in, uint64_t inlen )$/;"	f
+blake384_compress	blake/blake384.c	/^void blake384_compress( state384 *S, const uint8_t *block )$/;"	f
+blake384_final	blake/blake384.c	/^void blake384_final( state384 *S, uint8_t *out )$/;"	f
+blake384_hash	blake/blake384.c	/^void blake384_hash( uint8_t *out, const uint8_t *in, uint64_t inlen )$/;"	f
+blake384_init	blake/blake384.c	/^void blake384_init( state384 *S )$/;"	f
+blake384_test	blake/blake384.c	/^void blake384_test()$/;"	f
+blake384_update	blake/blake384.c	/^void blake384_update( state384 *S, const uint8_t *in, uint64_t inlen )$/;"	f
+blake512_compress	blake/blake512.c	/^void blake512_compress( state512 *S, const uint8_t *block )$/;"	f
+blake512_final	blake/blake512.c	/^void blake512_final( state512 *S, uint8_t *out )$/;"	f
+blake512_hash	blake/blake512.c	/^void blake512_hash( uint8_t *out, const uint8_t *in, uint64_t inlen )$/;"	f
+blake512_init	blake/blake512.c	/^void blake512_init( state512 *S )$/;"	f
+blake512_test	blake/blake512.c	/^void blake512_test()$/;"	f
+blake512_update	blake/blake512.c	/^void blake512_update( state512 *S, const uint8_t *in, uint64_t inlen )$/;"	f
+buf	blake/blake.h	/^  uint8_t  buf[64];$/;"	m	struct:__anon1
+buf	blake/blake.h	/^  uint8_t buf[128];$/;"	m	struct:__anon2
+buf	sha1.c	/^    unsigned char buf[SHA1_BLOCKSIZE];$/;"	m	struct:sha1_state	file:
+buflen	blake/blake.h	/^  int buflen, nullt;$/;"	m	struct:__anon1
+buflen	blake/blake.h	/^  int buflen, nullt;$/;"	m	struct:__anon2
+count_hi	sha256.c	/^    SHA_INT32 count_lo, count_hi;       \/** 64-bit bit count *\/$/;"	m	struct:__anon4	file:
+count_hi	sha512.c	/^    SHA_INT32 count_lo, count_hi;       \/** 64-bit bit count *\/$/;"	m	struct:__anon5	file:
+count_hi	sha512module.c	/^    SHA_INT32 count_lo, count_hi;       \/** 64-bit bit count *\/$/;"	m	struct:__anon6	file:
+count_lo	sha256.c	/^    SHA_INT32 count_lo, count_hi;       \/** 64-bit bit count *\/$/;"	m	struct:__anon4	file:
+count_lo	sha512.c	/^    SHA_INT32 count_lo, count_hi;       \/** 64-bit bit count *\/$/;"	m	struct:__anon5	file:
+count_lo	sha512module.c	/^    SHA_INT32 count_lo, count_hi;       \/** 64-bit bit count *\/$/;"	m	struct:__anon6	file:
+curlen	sha1.c	/^    SHA1_INT32 state[5], curlen;$/;"	m	struct:sha1_state	file:
+data	sha256.c	/^    SHA_BYTE data[SHA_BLOCKSIZE];       \/** SHA data buffer *\/$/;"	m	struct:__anon4	file:
+data	sha512.c	/^    SHA_BYTE data[SHA_BLOCKSIZE];       \/** SHA data buffer *\/$/;"	m	struct:__anon5	file:
+data	sha512module.c	/^    SHA_BYTE data[SHA_BLOCKSIZE];       \/** SHA data buffer *\/$/;"	m	struct:__anon6	file:
+digest	sha256.c	/^    SHA_INT32 digest[8];                \/** Message digest *\/$/;"	m	struct:__anon4	file:
+digest	sha512.c	/^    SHA_INT64 digest[8];                \/** Message digest *\/$/;"	m	struct:__anon5	file:
+digest	sha512module.c	/^    SHA_INT64 digest[8];                \/** Message digest *\/$/;"	m	struct:__anon6	file:
+digestsize	sha256.c	/^    int digestsize;$/;"	m	struct:__anon4	file:
+digestsize	sha512.c	/^    int digestsize;$/;"	m	struct:__anon5	file:
+digestsize	sha512module.c	/^    int digestsize;$/;"	m	struct:__anon6	file:
+h	blake/blake.h	/^  uint32_t h[8], s[4], t[2];$/;"	m	struct:__anon1
+h	blake/blake.h	/^  uint64_t h[8], s[4], t[2];$/;"	m	struct:__anon2
+hash_state	sha1.c	/^    struct sha1_state hash_state;$/;"	m	struct:__anon3	typeref:struct:__anon3::sha1_state	file:
+length	sha1.c	/^    SHA1_INT64 length;$/;"	m	struct:sha1_state	file:
+local	sha256.c	/^    int local;                          \/** unprocessed amount in data *\/$/;"	m	struct:__anon4	file:
+local	sha512.c	/^    int local;                          \/** unprocessed amount in data *\/$/;"	m	struct:__anon5	file:
+local	sha512module.c	/^    int local;                          \/** unprocessed amount in data *\/$/;"	m	struct:__anon6	file:
+longReverse	sha256.c	/^static void longReverse(SHA_INT32 *buffer, int byteCount, int Endianness)$/;"	f	file:
+longReverse	sha512.c	/^static void longReverse(SHA_INT64 *buffer, int byteCount, int Endianness)$/;"	f	file:
+longReverse	sha512module.c	/^static void longReverse(SHA_INT64 *buffer, int byteCount, int Endianness)$/;"	f	file:
+main	blake/blake224.c	/^int main( int argc, char **argv )$/;"	f
+main	blake/blake256.c	/^int main( int argc, char **argv )$/;"	f
+main	blake/blake384.c	/^int main( int argc, char **argv )$/;"	f
+main	blake/blake512.c	/^int main( int argc, char **argv )$/;"	f
+main	sha1.c	/^int main(){$/;"	f
+main	sha256.c	/^int main(){$/;"	f
+nullt	blake/blake.h	/^  int buflen, nullt;$/;"	m	struct:__anon1
+nullt	blake/blake.h	/^  int buflen, nullt;$/;"	m	struct:__anon2
+padding	blake/blake.h	/^static const uint8_t padding[129] =$/;"	v
+s	blake/blake.h	/^  uint32_t h[8], s[4], t[2];$/;"	m	struct:__anon1
+s	blake/blake.h	/^  uint64_t h[8], s[4], t[2];$/;"	m	struct:__anon2
+sha1_compress	sha1.c	/^static void sha1_compress(struct sha1_state *sha1, unsigned char *buf)$/;"	f	file:
+sha1_done	sha1.c	/^void sha1_done(struct sha1_state *sha1, unsigned char *out)$/;"	f
+sha1_init	sha1.c	/^void sha1_init(struct sha1_state *sha1)$/;"	f
+sha1_process	sha1.c	/^void sha1_process(struct sha1_state *sha1,$/;"	f
+sha1_state	sha1.c	/^struct sha1_state {$/;"	s	file:
+sha224_init	sha256.c	/^sha224_init(SHAobject *sha_info)$/;"	f	file:
+sha384_init	sha512.c	/^sha384_init(SHAobject *sha_info)$/;"	f	file:
+sha384_init	sha512module.c	/^sha384_init(SHAobject *sha_info)$/;"	f	file:
+sha512_final	sha512.c	/^sha512_final(unsigned char digest[SHA_DIGESTSIZE], SHAobject *sha_info)$/;"	f	file:
+sha512_final	sha512module.c	/^sha512_final(unsigned char digest[SHA_DIGESTSIZE], SHAobject *sha_info)$/;"	f	file:
+sha512_init	sha512.c	/^sha512_init(SHAobject *sha_info)$/;"	f	file:
+sha512_init	sha512module.c	/^sha512_init(SHAobject *sha_info)$/;"	f	file:
+sha512_transform	sha512.c	/^sha512_transform(SHAobject *sha_info)$/;"	f	file:
+sha512_transform	sha512module.c	/^sha512_transform(SHAobject *sha_info)$/;"	f	file:
+sha512_update	sha512.c	/^sha512_update(SHAobject *sha_info, SHA_BYTE *buffer, int count)$/;"	f	file:
+sha512_update	sha512module.c	/^sha512_update(SHAobject *sha_info, SHA_BYTE *buffer, int count)$/;"	f	file:
+sha_final	sha256.c	/^sha_final(unsigned char digest[SHA_DIGESTSIZE], SHAobject *sha_info)$/;"	f	file:
+sha_init	sha256.c	/^sha_init(SHAobject *sha_info)$/;"	f	file:
+sha_transform	sha256.c	/^sha_transform(SHAobject *sha_info)$/;"	f	file:
+sha_update	sha256.c	/^sha_update(SHAobject *sha_info, SHA_BYTE *buffer, int count)$/;"	f	file:
+sigma	blake/blake.h	/^const uint8_t sigma[][16] =$/;"	v
+size_t	sha1.c	/^typedef unsigned int size_t;$/;"	t	file:
+state	sha1.c	/^    SHA1_INT32 state[5], curlen;$/;"	m	struct:sha1_state	file:
+state224	blake/blake.h	/^typedef state256 state224;$/;"	t
+state256	blake/blake.h	/^} state256;$/;"	t	typeref:struct:__anon1
+state384	blake/blake.h	/^typedef state512 state384;$/;"	t
+state512	blake/blake.h	/^} state512;$/;"	t	typeref:struct:__anon2
+t	blake/blake.h	/^  uint32_t h[8], s[4], t[2];$/;"	m	struct:__anon1
+t	blake/blake.h	/^  uint64_t h[8], s[4], t[2];$/;"	m	struct:__anon2
+u256	blake/blake.h	/^const uint32_t u256[16] =$/;"	v
+u512	blake/blake.h	/^const uint64_t u512[16] =$/;"	v
